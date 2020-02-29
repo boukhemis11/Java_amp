@@ -20,8 +20,12 @@ public class AffichageInverse {
 		 }
 		 
 		 //Copier array dans arrayCopy
-			 int[] arrayCopy = Arrays.copyOf(array, array.length);
-			 System.out.println("arrayCopy :"+ Arrays.toString( arrayCopy ));
+		 int[] arrayCopy = new int[array.length];	
+		 for(int i=0; i <array.length; i++) {
+			 arrayCopy[i] = array[i];
+			 System.out.println("les éléments du tableau arrayCopy :"+ arrayCopy[i]);
+		 }
+
 
 		 
 
