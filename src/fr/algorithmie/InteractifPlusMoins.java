@@ -17,14 +17,15 @@ public class InteractifPlusMoins {
 			int a = saisie.nextInt();
 			if(a==secretNb) {
 
-				System.out.println("waw"+i);
+				System.out.println("« Bravo, vous avez\r\n" + 
+						"trouvé en "+i+" coup");
 				cond= false;
 				break;
 				}
 				else if(a<secretNb) {
-					System.out.println("il est au-dessus");
+					System.out.println("Ops, il est au-dessus");
 				}else {
-					System.out.println("il est au-dessous");			
+					System.out.println("Ops, il est au-dessous");			
 				}
 
 		}
