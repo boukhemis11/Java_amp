@@ -6,7 +6,6 @@ public class InteractifTantQue {
 
 	public static void main(String[] args) {
 		Scanner saisie = new Scanner(System.in) ;
-
 			int a=0;
 
 			while (true)
